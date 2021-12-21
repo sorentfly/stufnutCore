@@ -6,9 +6,11 @@
 # Запуск
 
 ## windows
-- ``
+- `-_-`
 - `.\venv-windows\Scripts\activate` для запуска виртуальной среды.
-- `cd .\core && python manage.py runserver`
+- `cd .\core`
+- `python manage.py runserver`
+- `-_-`
 
 ### Если есть ошибки
 #### Ошибка скриптов
