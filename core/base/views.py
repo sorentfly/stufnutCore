@@ -1,11 +1,10 @@
 from django.shortcuts import render
-from django.http import HttpResponse, JsonResponse
 
 
 # Create your views here.
 def home(request):
-    return JsonResponse({'msg': 'This is a HomePage'})
+    return render(request, 'base/home.html')
 
 
 def sex(request):
-    return HttpResponse('sex')
+    return render(request, 'base/sex.html')
