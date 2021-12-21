@@ -1,5 +1,6 @@
 # ROUTES
 - /
+- /room/\<int:roomId>
 - /base/
 - /base/sex
 

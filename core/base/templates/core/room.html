@@ -2,21 +2,16 @@
 
 {% block content %}
 <div class="container">
-    <h1><i>CORE</i> | Шаблон домашней страницы</h1>
+    <h1><i>CORE</i> | Шаблон комнаты</h1>
+    <h1>Вы в комнате #{{room.id}}</h1>
 
     <div class="content">
         <h2>Ссылки</h2>
         <ul>
+            <li><a href="{% url 'core.home' %}"><i>CORE</i> | Домашняя</a></li>
             <li><a href="{% url 'base.home' %}"><i>BASE</i> | Домашняя</a></li>
-            {% for room in rooms %}
-            <li>
-                <i><a href="{% url 'core.room' room.id %}">{{room.name}}</a>
-            </li>
-            {% endfor %}
+            <li><a href="{% url 'base.sex' %}"><i>BASE</i> | SEX</a></li>
         </ul>
-
-        <div>
-
     </div>
     </div>
 </div>
