@@ -1,17 +1,7 @@
-from django.contrib import admin
 from django.urls import path
-from django.http import HttpResponse, JsonResponse
-
-
-def home(request):
-    return JsonResponse({'msg': 'This is a HomePage'})
-
-
-def sex(request):
-    return HttpResponse('sex')
-
+from . import views
 
 urlpatterns = [
-    path('', home),
-    path('sex', sex),
+    path('', views.home, name='base.home'),
+    path('sex', views.sex, name='base.sex'),
 ]
