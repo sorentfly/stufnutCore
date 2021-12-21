@@ -1,5 +1,20 @@
 {% extends '../index.html' %}
 
 {% block content %}
+<div class="container">
     <h1><i>CORE</i> | Шаблон домашней страницы</h1>
+
+    <div class="content">
+        <h2>Ссылки</h2>
+        <a href="{% url 'base.home' %}">BASE | Домашняя</a>
+
+        <div>
+        {% for room in rooms %}
+            <div>
+                <p><i>{{room.id}}</i> -- {{room.name}}</p>
+            </div>
+        {% endfor %}
+    </div>
+    </div>
+</div>
 {% endblock %}
