@@ -1,3 +1,8 @@
+# ROUTES
+- /
+- /base/
+- /base/sex
+
 # Запуск
 
 ## windows
