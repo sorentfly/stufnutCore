@@ -1,3 +1,8 @@
+# Источник
+Проект создан по урокам на YouTube:[Источник](https://youtu.be/PtQiiknWUcI).
+
+В своей реализации остановились [тут](https://youtu.be/PtQiiknWUcI?t=3647).
+
 # ROUTES
 - /
 - /room/\<int:roomId>
