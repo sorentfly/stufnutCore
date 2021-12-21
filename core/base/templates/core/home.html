@@ -10,7 +10,7 @@
             <li><a href="{% url 'base.home' %}"><i>BASE</i> | Домашняя</a></li>
             {% for room in rooms %}
             <li>
-                <i><a href="{% url 'core.room' room.id %}">{{room.name}}</a>
+                <a href="{% url 'core.room' room.id %}">{{room.name}}</a>
             </li>
             {% endfor %}
         </ul>
