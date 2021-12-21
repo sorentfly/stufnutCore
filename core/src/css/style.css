@@ -1,0 +1,23 @@
+:root
+{
+    --color-main: #222327;
+    --color-active: #2196f3;
+
+    --transition-main: .5s;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--color-main);
+}
