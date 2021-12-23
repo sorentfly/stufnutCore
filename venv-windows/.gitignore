@@ -1,7 +1,1 @@
 # created by virtualenv automatically
-*
-
-!.gitignore
-!pyvenv.cfg
-!/Scripts/
-!/Scripts/*
